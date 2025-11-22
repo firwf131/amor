@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Para o amor da minha vida ❤️</title>
+  <style>
+    :root{ --bg:#0b1020; --card:rgba(255,255,255,0.03); --accent:#ff7aa2; --txt:#f6f8fb; }
+    *{box-sizing:border-box}
+    body{
+      margin:0; font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+      background: linear-gradient(160deg,#0b1020 0%, #07102a 60%);
+      color:var(--txt); -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale;
+      padding:28px; display:flex; justify-content:center; align-items:flex-start;
+    }
+    .container{ width:100%; max-width:1000px; display:grid; grid-template-columns:1fr 380px; gap:22px; }
+    .card{ background:var(--card); padding:22px; border-radius:14px; box-shadow:0 10px 30px rgba(2,6,23,0.6); border:1px solid rgba(255,255,255,0.03); }
+    h1{ margin:0; color:var(--accent); font-size:28px; display:flex; align-items:center; gap:10px; }
+    .letter{ font-size:16px; line-height:1.6; color:#eaf3ff; white-space:pre-wrap; margin-top:12px; }
+    .side{ display:flex; flex-direction:column; gap:14px; }
+    video{ width:100%; border-radius:10px; background:#000; }
+    audio{ width:100%; margin-top:8px; }
+    .btn{ display:inline-block; padding:10px 12px; border-radius:10px; background:linear-gradient(90deg,#ffb0c8,#ff7aa2); color:#071029; text-decoration:none; font-weight:700; }
+    @media (max-width:900px){ .container{ grid-template-columns:1fr; } .side{ order:2 } }
+    footer{ text-align:center; color:#9fb0c8; margin-top:18px; font-size:13px; }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <section class="card">
+      <h1>💌 Para o amor da minha vida</h1>
+      <div class="letter">
+Para o amor da minha vida🤍🫶
+
+Quero que você saiba que você tem um lugar especial no meu coração, um lugar que ninguém pode competir. Desde que você chegou, eu me sinto mais feliz, e nunca quis tanto algo como eu te quero, e que seja você.
+
+Sinto que todas as palavras do mundo parecem insuficientes para expressar sua perfeição. Você foi e é o melhor presente que a vida poderia ter me dado, e saber que tenho você do meu lado me dá a força para enfrentar qualquer obstáculo sem medo.
+
+Você entrou na minha vida e, em um piscar de olhos, conseguiu me conquistar. Você me faz brilhar nos dias em que eu mais estava apagado, com vontade de desistir de tudo. Com você, tudo fica melhor. Você despertou as coisas mais bonitas que existiam em mim, que nem eu sabia que tinha, e me fez saber o que realmente é o amor, a simplicidade e o respeito.
+
+Não vou desistir de você nunca, porque meu pior pesadelo seria um dia se não tivesse você comigo, e pra isso quero melhorar muito e lutar por nós sempre, pois é com você que eu quero dividir momentos: sair por aí na madrugada, ver o pôr do sol ao seu lado, dançar na chuva e olhar as estrelas. Quero olhar nos seus olhos enquanto você ri para mim e te dizer todos os dias o quanto eu te amo e o quanto você é importante, e o quanto me faz feliz e que só consigo ver o mundo de diversas cores e alegre ao seu lado.
+
+Você é a única pessoa que sabe decifrar o meu olhar, a única que consegue me deixar sem palavras e com uma vontade incontrolável de entrelaçar meus dedos nos teus e te encher de beijos.
+
+É você quem eu quero que esteja ao meu lado, mais ninguém. É você quem eu quero para a vida toda.
+Eu estou aqui com você, estive ontem, vou estar amanhã e até quando você quiser que eu esteja, te amando, te protegendo e cuidando do seu coração.
+
+Eu te escolhi para termos nossa família, nossos filhos, nossa casa. Quero ter sucesso e conquistar tudo ao seu lado. Por isso, vou melhorar minhas atitudes e me empenhar para que isso aconteça. Saiba que é você e mais ninguém que eu quero como mãe dos meus filhos. Minha prioridade sempre vai ser a menininha por quem sou apaixonado, e vou fazer de tudo para que seja sempre você
+
+Para sempre nós, eu te amoo, vc é o amor da minha vida e que seja para todas as vidas🤍🤍
+      </div>
+      <footer>Feito com carinho ❤️</footer>
+    </section>
+
+    <aside class="side">
+      <div class="card">
+        <h3>🎥 Vídeo 1</h3>
+        <!-- nome esperado: video1.mp4 -->
+        <video controls id="v1"><source src="video1.mp4" type="video/mp4">Seu navegador não suporta vídeo.</video>
+      </div>
+
+      <div class="card">
+        <h3>🎥 Vídeo 2</h3>
+        <!-- nome esperado: video2.mp4 -->
+        <video controls id="v2"><source src="video2.mp4" type="video/mp4">Seu navegador não suporta vídeo.</video>
+      </div>
+
+      <div class="card">
+        <h3>🎵 Música</h3>
+        <!-- nome esperado: incondicional.mp3 (ou você pode usar um embed YouTube, veja instruções abaixo) -->
+        <audio controls id="song"><source src="incondicional.mp3" type="audio/mpeg">Sua música não foi encontrada.</audio>
+        <p style="font-size:13px;color:#b6cbe0;margin-top:8px">Se não tiver o arquivo MP3, eu posso inserir um embed do YouTube (unlisted ou público).</p>
+      </div>
+    </aside>
+  </main>
+</body>
+</html>
